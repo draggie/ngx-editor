@@ -1,6 +1,6 @@
 {
-  "name": "ngx-editor",
-  "version": "4.2.0",
+  "name": "@traceabilit/ngx-editor",
+  "version": "4.2.1",
   "description": "WYSIWYG Editor for Angular Applications",
   "license": "MIT",
   "scripts": {
