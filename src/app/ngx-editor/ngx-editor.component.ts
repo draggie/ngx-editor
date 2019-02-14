@@ -9,6 +9,11 @@ import { MessageService } from './common/services/message.service';
 
 import { ngxEditorConfig } from './common/ngx-editor.defaults';
 import * as Utils from './common/utils/ngx-editor.utils';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fas, fab);
 
 @Component({
   selector: 'app-ngx-editor',
